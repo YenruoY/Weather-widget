@@ -12,7 +12,10 @@ The script don't have any dependencies, however it uses Font-awesome for the ico
 The script was created to used with i3-status. To add it to your i3status bar, open your i3 config file and edit the line as below :
 
     bar {
-    status_command i3status | ~/location/to/weather_widget.py
+    status_command i3status | ~/path/to/weather_widget.py
     (...)
     }
  
+Add executable permission to the file
+
+chmod +x ~/path/to/weather_widget.py 
