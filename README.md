@@ -16,6 +16,6 @@ The script was created to used with i3-status. To add it to your i3status bar, o
     (...)
     }
  
-Add executable permission to the file
+Add executable permission to the file :
 
-chmod +x ~/path/to/weather_widget.py 
+    chmod +x ~/path/to/weather_widget.py 
